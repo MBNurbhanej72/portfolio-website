@@ -1,0 +1,45 @@
+/* =====  Font Family  ===== */
+
+@font-face {
+  font-family: "Epilogue-Light";
+  src: url(../fonts/Epilogue/Epilogue-Light.ttf);
+
+  /*?  Font Weight 300  ?*/
+}
+
+@font-face {
+  font-family: "Epilogue-Regular";
+  src: url(../fonts/Epilogue/Epilogue-Regular.ttf);
+
+  /*?  Font Weight 400  ?*/
+}
+
+@font-face {
+  font-family: "Epilogue-Medium";
+  src: url(../fonts/Epilogue/Epilogue-Medium.ttf);
+
+  /*?  Font Weight 500  ?*/
+}
+
+@font-face {
+  font-family: "Epilogue-SemiBold";
+  src: url(../fonts/Epilogue/Epilogue-SemiBold.ttf);
+
+  /*?  Font Weight 600  ?*/
+}
+
+@font-face {
+  font-family: "Epilogue-Bold";
+  src: url(../fonts/Epilogue/Epilogue-Bold.ttf);
+
+  /*?  Font Weight 700  ?*/
+}
+
+body {
+  font-family: "Epilogue-Regular";
+}
+
+*::selection {
+  background-color: #fff;
+  color: #391400;
+}
